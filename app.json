@@ -1,0 +1,14 @@
+"name": "tioanime-telegram-bot",
+	"description": "Telegram bot for anime",
+	"repository": "https://github.com/Obysoftt/tioanime-telegram-bot",
+	"env": {
+		"updater": {
+			"description": "BOT TOKEN from @botfather"
+		}
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
